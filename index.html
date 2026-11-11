@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Mazam darba devējam Latvijā: ikmēneša algu un nodokļu aprēķins, algas lapiņas, darba devēja ziņojums VID un atvaļinājumu uzskaite.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Algu Lapa</a></div>
-  <nav class="top"><a href="#ko" data-ev="click_nav_ko">Ko jūs saņemat</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#piemers" data-ev="click_nav_piemers">Piemērs</a><a href="#start" data-ev="click_nav_start">Sākt</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Algu Lapa</a>
+  <nav><a href="#ko" data-ev="click_nav_ko">Ko jūs saņemat</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#piemers" data-ev="click_nav_piemers">Piemērs</a><a href="#start" data-ev="click_nav_start">Sākt</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Algas, nodokļi un darba devēja ziņojums — katru mēnesi bez tabulām un bez kavētiem termiņiem</h1>
-    <p class="sub">Mazam uzņēmumam ar dažiem darbiniekiem: alga, iedzīvotāju ienākuma nodoklis un sociālās iemaksas tiek aprēķināti katru mēnesi, darbinieki saņem algas lapiņas, un darba devēja ziņojums VID ir sagatavots laikā.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Man to vajag</a>
-    <p class="cta-note">Agrīna piekļuve · Šajā lapā maksājumi pagaidām netiek pieņemti</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Mazam uzņēmumam ar dažiem darbiniekiem</p>
+      <h1 class="rise" style="--i:1" data-len="long">Algas, nodokļi un darba devēja ziņojums&nbsp;<span class="soft">— katru mēnesi bez tabulām un bez kavētiem termiņiem</span></h1>
+      <p class="rise" style="--i:2">Mazam uzņēmumam ar dažiem darbiniekiem: alga, iedzīvotāju ienākuma nodoklis un sociālās iemaksas tiek aprēķināti katru mēnesi, darbinieki saņem algas lapiņas, un darba devēja ziņojums VID ir sagatavots laikā.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Man to vajag</a>
+      <p class="meta rise" style="--i:4">Agrīna piekļuve · Šajā lapā maksājumi pagaidām netiek pieņemti</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><text x="120" y="165" font-size="36" font-weight="600" fill="#0a1524">Algu aprēķins</text><line x1="80" y1="210" x2="1120" y2="210" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="255" width="48" height="48" rx="8" fill="#12397a" /><rect x="200" y="267" width="260" height="24" rx="12" fill="#dde2ea" /><rect x="130" y="350" width="48" height="48" rx="8" fill="#dfe8f7" /><rect x="200" y="362" width="340" height="24" rx="12" fill="#dde2ea" /><rect x="130" y="445" width="48" height="48" rx="8" fill="#dfe8f7" /><rect x="200" y="457" width="220" height="24" rx="12" fill="#dde2ea" /><rect x="130" y="540" width="48" height="48" rx="8" fill="#dfe8f7" /><rect x="200" y="552" width="300" height="24" rx="12" fill="#dde2ea" /><rect x="680" y="250" width="390" height="420" rx="20" fill="#dfe8f7" /><text x="710" y="325" font-size="30" font-weight="600" fill="#0a1524">katru mēnesi</text><rect x="720" y="370" width="310" height="260" rx="12" fill="#ffffff" /><rect x="745" y="405" width="220" height="18" rx="9" fill="#dde2ea" /><rect x="745" y="453" width="170" height="18" rx="9" fill="#dde2ea" /><rect x="745" y="501" width="250" height="18" rx="9" fill="#dde2ea" /><rect x="745" y="549" width="140" height="18" rx="9" fill="#dde2ea" /><rect x="745" y="590" width="190" height="22" rx="8" fill="#12397a" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Mazam</dt><dd>Uzņēmumam ar dažiem darbiniekiem</dd></div>
+      <div><dt>Aprēķins</dt><dd>Tiek aprēķināti katru mēnesi</dd></div>
+      <div><dt>Darbojas</dt><dd>Pārlūkā datorā un telefonā</dd></div>
+      <div><dt>Pakalpojums</dt><dd>Ir sagatavošanā</dd></div>
+    </dl>
+  </section>
 
   <section id="ko" data-view="features_view">
-    <h2>Ko jūs saņemat</h2>
-    <div class="grid">
-      <div class="card"><b>Algu aprēķins</b><span>Alga, IIN un sociālās iemaksas katram darbiniekam katru mēnesi.</span><br><a class="btn" href="price.html" data-ev="feature_aprekins">Man to vajag</a></div>
-      <div class="card"><b>Algas lapiņas</b><span>Lapiņa katram darbiniekam ar visām summām un ieturējumiem.</span><br><a class="btn" href="price.html" data-ev="feature_lapinas">Man to vajag</a></div>
-      <div class="card"><b>Darba devēja ziņojums</b><span>Ikmēneša ziņojums VID sagatavots iesniegšanai EDS.</span><br><a class="btn" href="price.html" data-ev="feature_zinojums">Man to vajag</a></div>
-      <div class="card"><b>Atvaļinājumi un slimības</b><span>Atvaļinājumu dienas, slimības lapas un to ietekme uz algu.</span><br><a class="btn" href="price.html" data-ev="feature_atvalinajumi">Man to vajag</a></div>
+    <div class="stack"><h2>Ko jūs saņemat</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" rx="22" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><text x="110" y="155" font-size="32" font-weight="600" fill="#0a1524">Algu aprēķins</text><rect x="130" y="205" width="40" height="40" rx="8" fill="#dfe8f7" /><rect x="190" y="213" width="280" height="24" rx="12" fill="#dde2ea" /><rect x="130" y="273" width="40" height="40" rx="8" fill="#12397a" /><rect x="190" y="281" width="360" height="24" rx="12" fill="#b9c3d2" /><rect x="130" y="341" width="40" height="40" rx="8" fill="#dfe8f7" /><rect x="190" y="349" width="220" height="24" rx="12" fill="#dde2ea" /><rect x="130" y="409" width="40" height="40" rx="8" fill="#dfe8f7" /><rect x="190" y="417" width="320" height="24" rx="12" fill="#dfe8f7" /></svg></div>
+        <h3>Algu aprēķins</h3><p>Alga, IIN un sociālās iemaksas katram darbiniekam katru mēnesi.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_aprekins">Man to vajag</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" rx="22" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><text x="110" y="155" font-size="32" font-weight="600" fill="#0a1524">Algas lapiņas</text><rect x="140" y="205" width="340" height="270" rx="12" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><rect x="168" y="245" width="240" height="20" rx="10" fill="#dde2ea" /><rect x="168" y="297" width="190" height="20" rx="10" fill="#dde2ea" /><rect x="168" y="349" width="260" height="20" rx="10" fill="#dde2ea" /><rect x="168" y="401" width="160" height="20" rx="10" fill="#dde2ea" /><circle cx="590" cy="360" r="64" fill="#dfe8f7" /><polyline points="556,362 582,390 628,332" fill="none" stroke="#12397a" stroke-width="8" /></svg></div>
+        <h3>Algas lapiņas</h3><p>Lapiņa katram darbiniekam ar visām summām un ieturējumiem.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_lapinas">Man to vajag</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" rx="22" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><text x="110" y="155" font-size="32" font-weight="600" fill="#0a1524">Darba devēja ziņojums</text><rect x="120" y="210" width="240" height="270" rx="12" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><rect x="450" y="210" width="230" height="270" rx="12" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><polygon points="385,330 430,305 430,355" fill="#12397a" /><rect x="148" y="260" width="160" height="18" rx="9" fill="#dde2ea" /><rect x="478" y="260" width="160" height="18" rx="9" fill="#b9c3d2" /><rect x="148" y="318" width="130" height="18" rx="9" fill="#dde2ea" /><rect x="478" y="318" width="130" height="18" rx="9" fill="#b9c3d2" /><rect x="148" y="376" width="170" height="18" rx="9" fill="#dde2ea" /><rect x="478" y="376" width="170" height="18" rx="9" fill="#b9c3d2" /></svg></div>
+        <h3>Darba devēja ziņojums</h3><p>Ikmēneša ziņojums VID sagatavots iesniegšanai EDS.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_zinojums">Man to vajag</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" rx="22" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><text x="110" y="155" font-size="32" font-weight="600" fill="#0a1524">Atvaļinājumi un slimības</text><rect x="150" y="205" width="500" height="270" rx="16" fill="#dfe8f7" /><rect x="150" y="205" width="500" height="52" rx="16" fill="#12397a" /><rect x="174" y="278" width="96" height="44" rx="8" fill="#ffffff" /><rect x="292" y="278" width="96" height="44" rx="8" fill="#ffffff" /><rect x="410" y="278" width="96" height="44" rx="8" fill="#ffffff" /><rect x="528" y="278" width="96" height="44" rx="8" fill="#ffffff" /><rect x="174" y="338" width="96" height="44" rx="8" fill="#ffffff" /><rect x="292" y="338" width="96" height="44" rx="8" fill="#ffffff" /><rect x="410" y="338" width="96" height="44" rx="8" fill="#12397a" /><rect x="528" y="338" width="96" height="44" rx="8" fill="#ffffff" /><rect x="174" y="398" width="96" height="44" rx="8" fill="#ffffff" /><rect x="292" y="398" width="96" height="44" rx="8" fill="#ffffff" /><rect x="410" y="398" width="96" height="44" rx="8" fill="#ffffff" /><rect x="528" y="398" width="96" height="44" rx="8" fill="#ffffff" /></svg></div>
+        <h3>Atvaļinājumi un slimības</h3><p>Atvaļinājumu dienas, slimības lapas un to ietekme uz algu.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_atvalinajumi">Man to vajag</a>
+      </article>
     </div>
   </section>
 
-  <section id="piemers" data-view="example_view">
-    <h2>Piemērs (izdomāti dati)</h2>
-    <p class="fine">Kafejnīca ar sešiem darbiniekiem, no kuriem divi strādā nepilnu laiku. Mēneša beigās īpašniece ievada nostrādātās stundas un vienu slimības lapu; alga un nodokļi ir aprēķināti, lapiņas nosūtītas darbiniekiem, un darba devēja ziņojums gaida iesniegšanu EDS.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Izvēlieties plānu</a>
+  <section id="piemers" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Piemērs</h2>
+      <p>Kafejnīca ar sešiem darbiniekiem, no kuriem divi strādā nepilnu laiku. Mēneša beigās īpašniece ievada nostrādātās stundas un vienu slimības lapu; alga un nodokļi ir aprēķināti, lapiņas nosūtītas darbiniekiem, un darba devēja ziņojums gaida iesniegšanu EDS.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Izvēlieties plānu</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="150" x2="1000" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="150" r="22" fill="#12397a" /><rect x="120" y="240" width="960" height="480" rx="24" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><text x="170" y="320" font-size="36" font-weight="600" fill="#0a1524">Piemērs</text><text x="170" y="410" font-size="32" fill="#566174">sešiem darbiniekiem</text><text x="170" y="490" font-size="32" fill="#566174">nepilnu laiku</text><text x="170" y="570" font-size="32" fill="#566174">slimības lapu</text><text x="170" y="650" font-size="32" fill="#566174">iesniegšanu EDS</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Kā tas darbojas</h2>
-    <p>Latvijā ir vairāk nekā deviņdesmit tūkstoši uzņēmumu, kuru gada pārskatos norādīts vismaz viens darbinieks, un lielākajai daļai no tiem ir līdz pieciem darbiniekiem. Katram šādam darba devējam reizi mēnesī jāaprēķina alga, iedzīvotāju ienākuma nodoklis un valsts sociālās apdrošināšanas obligātās iemaksas, jāizsniedz darbiniekiem algas lapiņas un jāiesniedz VID darba devēja ziņojums.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Kā tas darbojas</h2></div>
+    <div class="stack">
+      <p>Latvijā ir vairāk nekā deviņdesmit tūkstoši uzņēmumu, kuru gada pārskatos norādīts vismaz viens darbinieks, un lielākajai daļai no tiem ir līdz pieciem darbiniekiem. Katram šādam darba devējam reizi mēnesī jāaprēķina alga, iedzīvotāju ienākuma nodoklis un valsts sociālās apdrošināšanas obligātās iemaksas, jāizsniedz darbiniekiem algas lapiņas un jāiesniedz VID darba devēja ziņojums.</p>
     <p>Mazā uzņēmumā to bieži dara pats īpašnieks vakaros vai ārpakalpojuma grāmatvedis, kurš ar algām nodarbojas starp citiem darbiem. Aprēķins notiek tabulā, likmes un neapliekamais minimums jāpārbauda ar roku, un pietiek ar vienu kļūdu stundu skaitā vai atvaļinājuma dienās, lai ziņojumā parādītos nepareiza summa un vajadzētu iesniegt labojumu.</p>
     <p>Šis pakalpojums veic ikmēneša algu aprēķinu jūsu vietā. Jūs ievadāt darbiniekus ar viņu līguma nosacījumiem — mēnešalgu vai stundas likmi, slodzi un algas nodokļa grāmatiņas datus —, un katru mēnesi tikai nostrādāto laiku, atvaļinājumus un slimības lapas. Alga, ieturējumi un darba devēja iemaksas tiek aprēķināti automātiski pēc spēkā esošajām likmēm.</p>
     <p>Katram darbiniekam tiek sagatavota algas lapiņa ar visām summām: bruto alga, ieturētais nodoklis, sociālās iemaksas, atvaļinājuma nauda un izmaksājamā summa. Lapiņas var nosūtīt darbiniekiem pa e-pastu vai izdrukāt. Tajā pašā laikā tiek sagatavots darba devēja ziņojums VID, kuru jūs pārbaudāt un iesniedzat EDS.</p>
@@ -113,31 +147,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Kad uzņēmumā sāk strādāt jauns darbinieks vai kāds aiziet, pakalpojums atgādina, kas jādara: jāpaziņo VID par darba attiecību sākumu vai beigām, jāaprēķina gala norēķins ar neizmantotā atvaļinājuma kompensāciju un jāsagatavo pēdējā algas lapiņa. Visi aprēķini paliek vēsturē, tāpēc jebkurā brīdī var atrast, cik un par ko tika izmaksāts katram darbiniekam pirms gada vai diviem, un atbildēt uz darbinieka vai pārbaudītāja jautājumu.</p>
     <p>Pakalpojums darbojas pārlūkā datorā un telefonā, nekas nav jāinstalē. Sākt var vienā vakarā: ievadāt uzņēmuma datus un darbiniekus, pārbaudāt pirmo aprēķinu un salīdzināt to ar iepriekšējā mēneša algām. Ja jums jau ir grāmatvedis, viņš var strādāt tajā pašā kontā un redzēt visus aprēķinus.</p>
     <p>Pakalpojums ir paredzēts maziem un vidējiem uzņēmumiem ar dažiem līdz vairākiem desmitiem darbinieku, kuri grāmatvedību kārto paši vai citur. Tas ir sagatavošanā: vispirms pārbaudām, vai uzņēmumiem tas ir vajadzīgs, un tikai tad to veidojam.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Jautājumi un atbildes</h2>
-    <h3>Vai pakalpojums iesniedz ziņojumu VID manā vietā?</h3>
-    <p>Nē. Darba devēja ziņojums tiek sagatavots, bet pārbaudāt un iesniedzat EDS jūs pats.</p>
-    <h3>Vai tiek ņemtas vērā aktuālās likmes?</h3>
-    <p>Jā, aprēķins notiek pēc spēkā esošajām IIN un sociālo iemaksu likmēm.</p>
-    <h3>Vai var strādāt kopā ar manu grāmatvedi?</h3>
-    <p>Jā, grāmatvedim var piešķirt piekļuvi tam pašam kontam.</p>
-    <h3>Vai ir jāinstalē programma?</h3>
-    <p>Nē, pakalpojums darbojas pārlūkā datorā un telefonā.</p>
-    <h3>Vai jau varu to izmantot?</h3>
-    <p>Vēl ne. Pakalpojums ir sagatavošanā, un mēs pārbaudām, vai uzņēmumiem tas ir vajadzīgs.</p>
+    <div class="stack"><h2>Jautājumi un atbildes</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Vai pakalpojums iesniedz ziņojumu VID manā vietā?</h3><p>Nē. Darba devēja ziņojums tiek sagatavots, bet pārbaudāt un iesniedzat EDS jūs pats.</p></div>
+      <div class="split flip"><h3>Vai tiek ņemtas vērā aktuālās likmes?</h3><p>Jā, aprēķins notiek pēc spēkā esošajām IIN un sociālo iemaksu likmēm.</p></div>
+      <div class="split flip"><h3>Vai var strādāt kopā ar manu grāmatvedi?</h3><p>Jā, grāmatvedim var piešķirt piekļuvi tam pašam kontam.</p></div>
+      <div class="split flip"><h3>Vai ir jāinstalē programma?</h3><p>Nē, pakalpojums darbojas pārlūkā datorā un telefonā.</p></div>
+      <div class="split flip"><h3>Vai jau varu to izmantot?</h3><p>Vēl ne. Pakalpojums ir sagatavošanā, un mēs pārbaudām, vai uzņēmumiem tas ir vajadzīgs.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Pievienojiet savu uzņēmumu</h2>
-    <p><label>Cik darbinieku strādā uzņēmumā<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— izvēlieties —</option><option>1–5</option><option>6–20</option><option>21–49</option><option>50 un vairāk</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Sākt</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Pievienojiet savu uzņēmumu</h2>
+    </div>
+    <div class="tile stack">
+      <label>Cik darbinieku strādā uzņēmumā<select data-ev-focus="form_start"><option value="">— izvēlieties —</option><option>1–5</option><option>6–20</option><option>21–49</option><option>50 un vairāk</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Sākt</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Algu Lapa</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privātuma politika</a></p>
-  <p class="muted">Algu aprēķins un dokumentu sagatavošana jūsu uzņēmumam. Nav saistīts ar VID; ziņojumus iesniedzat jūs.</p>
+  <p>Algu aprēķins un dokumentu sagatavošana jūsu uzņēmumam. Nav saistīts ar VID; ziņojumus iesniedzat jūs.</p>
 </div></footer>
 
 </body>
